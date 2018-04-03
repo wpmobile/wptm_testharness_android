@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    android:id="@+id/LinearLayout01"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/Background_Screen">
+     
+
+<RelativeLayout
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">    
+
+    <TextView
+        android:id="@+id/screen_name"
+        android:text="sale"
+        style="@style/Headding"/>
+   
+ </RelativeLayout>  
+ 
+ <RelativeLayout 
+    android:id="@+id/RelativeLayout02"
+    android:layout_marginTop="30dp"
+    android:layout_below="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >  
+<RadioGroup
+    android:id="@+id/rgroup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone"
+    >
+    <RadioButton 
+        android:id="@+id/cp"
+        android:text="Card present"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        />
+    <RadioButton 
+        android:id="@+id/cnp"
+        android:text="Card not present"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    </RadioGroup>
+     <TextView
+         android:layout_below="@+id/rgroup"
+         android:id="@+id/Amount"        
+         style="@style/CodeFontSmall" 
+         android:text="Amount:" /> 
+         
+      <EditText 
+         android:id="@+id/editAmount" 
+          android:layout_below="@+id/rgroup"       
+         android:layout_toRightOf="@+id/Amount"           
+         style="@style/EditTextsmall"/> 
+         
+         
+       <TextView
+         android:layout_below="@+id/Amount"
+         android:id="@+id/PGTR"        
+         style="@style/CodeFontSmall" 
+         android:text="PGTR:" 
+         android:visibility="gone"/> 
+         
+      <EditText 
+         android:id="@+id/editpgtr" 
+          android:layout_below="@+id/Amount"       
+         android:layout_toRightOf="@+id/PGTR"           
+         style="@style/EditTextsmall" 
+         android:visibility="gone"/>  
+      
+         <TextView
+             android:id="@+id/paymentRef"
+             style="@style/CodeFontSmall"
+             android:layout_width="fill_parent"
+             android:layout_below="@+id/PGTR"
+             android:text="Enter Payment Reference (Optional):" />
+         
+      <!-- <EditText 
+         android:id="@+id/editPaymentRef" 
+          android:layout_below="@+id/paymentRef"       
+         style="@style/EditTextsmall" 
+         android:layout_marginLeft="10dp"
+         android:digits=" .,@#-_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" 
+         android:maxLength="50"/> -->
+     
+     <EditText 
+         android:id="@+id/editPaymentRef" 
+          android:layout_below="@+id/paymentRef"       
+         style="@style/EditTextsmall" 
+         android:layout_marginLeft="10dp"/> 
+      
+      <TextView
+             android:id="@+id/receipttype"
+             style="@style/CodeFontSmall"
+             android:layout_width="fill_parent"
+             android:layout_below="@+id/editPaymentRef"
+             android:text="Select Receipt Type:" 
+             android:visibility="gone"/>
+   <RadioGroup
+    android:id="@+id/rgroupreceipttype"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_below="@+id/receipttype"
+    android:visibility="gone"
+    >
+    <RadioButton 
+        android:id="@+id/rb_mobilenumber"
+        android:text="Mobile Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+    <RadioButton 
+        android:id="@+id/rb_emailaddress"
+        android:text="Email Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:visibility="gone"
+        />
+    <RadioButton 
+        android:id="@+id/rb_none"
+        android:text="None"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:visibility="gone"
+        />
+    </RadioGroup>
+    <EditText 
+         android:id="@+id/edit_receipttype_email" 
+         android:layout_below="@+id/rgroupreceipttype"       
+         style="@style/EditTextsmall" 
+         android:layout_marginLeft="10dp"
+         android:hint="Enter Email Address"
+         android:visibility="gone"/>
+        <!--  android:digits=" .,@#-_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" 
+         android:maxLength="50" -->
+
+    <EditText 
+         android:id="@+id/edit_receipttype_mobile" 
+         android:layout_below="@+id/rgroupreceipttype"       
+         style="@style/EditTextsmall" 
+         android:layout_marginLeft="10dp"
+         android:hint="Enter Mobile Number"
+         android:visibility="gone"/>
+         <!-- android:inputType="number" 
+         android:maxLength="10" -->
+
+ 	 <TextView
+          android:id="@+id/tokenText"
+          style="@style/CodeFontSmall"
+          android:layout_below="@+id/edit_receipttype_mobile"
+          android:text="Enter Token: "
+          android:visibility="gone" />
+     <EditText 
+         android:id="@+id/editToken" 
+         android:layout_below="@+id/edit_receipttype_mobile"
+         android:layout_toRightOf="@+id/tokenText"       
+         style="@style/EditTextsmall" 
+         android:layout_marginLeft="10dp"
+         android:visibility="gone"/>
+     
+     <TextView
+          android:id="@+id/emailText"
+          style="@style/CodeFontSmall"
+          android:layout_below="@+id/editToken"
+          android:text="Enter Email: "
+          android:visibility="gone" />
+     <EditText 
+         android:id="@+id/editEmail" 
+         android:layout_below="@+id/editToken"
+         android:layout_toRightOf="@+id/emailText"       
+         style="@style/EditTextsmall" 
+         android:layout_marginLeft="10dp"
+         android:visibility="gone"/>
+     
+     <TextView
+          android:id="@+id/mobileNumberText"
+          style="@style/CodeFontSmall"
+          android:layout_below="@+id/editEmail"
+          android:text="Enter Mobile No: "
+          android:visibility="gone" />
+     <EditText 
+         android:id="@+id/editMobileNumber" 
+         android:layout_below="@+id/editEmail"
+         android:layout_toRightOf="@+id/mobileNumberText"       
+         style="@style/EditTextsmall" 
+         android:layout_marginLeft="10dp"
+         android:visibility="gone"/>
+</RelativeLayout>
+
+ <LinearLayout
+  		android:orientation="horizontal"
+  		android:layout_width="fill_parent"
+  		android:layout_marginTop="25dp"
+  		android:layout_marginBottom="5dp" 
+		android:layout_height="fill_parent"
+		android:gravity="center_horizontal">
+	
+	 <Button 
+    		  android:text="Submit"     	 		
+    		  android:layout_width="125dp"  
+              style="@style/Button" 
+              android:id="@+id/button"    />
+ 
+</LinearLayout>
+
+</LinearLayout>

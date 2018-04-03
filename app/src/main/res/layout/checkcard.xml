@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    android:id="@+id/LinearLayout01"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/Background_Screen">
+     
+
+<RelativeLayout
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">    
+
+    <TextView
+        android:id="@+id/screen_name"
+        android:text="sale"
+        style="@style/Headding"/>
+   
+ </RelativeLayout>  
+ 
+ <RelativeLayout 
+    android:id="@+id/RelativeLayout02"
+    android:layout_marginTop="30dp"
+    android:layout_below="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >  
+<RadioGroup
+    android:id="@+id/rgroupcheckcard"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone"
+    >
+    <RadioButton 
+        android:id="@+id/checkcardtrue"
+        android:text="CheckCard with true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        />
+    <RadioButton 
+        android:id="@+id/checkcardfalse"
+        android:text="CheckCard with false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    </RadioGroup>
+    <!--  <TextView
+         android:layout_below="@+id/rgroup"
+         android:id="@+id/Amount"        
+         style="@style/CodeFontSmall" 
+         android:text="Amount:" /> 
+         
+      <EditText 
+         android:id="@+id/editAmount" 
+          android:layout_below="@+id/rgroup"       
+         android:layout_toRightOf="@+id/Amount"           
+         style="@style/EditTextsmall" 
+         android:inputType="numberDecimal" 
+         android:maxLength="10"/> 
+         
+         
+       <TextView
+         android:layout_below="@+id/Amount"
+         android:id="@+id/PGTR"        
+         style="@style/CodeFontSmall" 
+         android:text="PGTR:" 
+         android:visibility="gone"/> 
+         
+      <EditText 
+         android:id="@+id/editpgtr" 
+          android:layout_below="@+id/Amount"       
+         android:layout_toRightOf="@+id/PGTR"           
+         style="@style/EditTextsmall" 
+         android:inputType="number" 
+         android:maxLength="13"
+         android:visibility="gone"/>  
+      
+         <TextView
+             android:id="@+id/paymentRef"
+             style="@style/CodeFontSmall"
+             android:layout_width="fill_parent"
+             android:layout_below="@+id/PGTR"
+             android:text="Enter Payment Reference (Optional):" />
+         
+      <EditText 
+         android:id="@+id/editPaymentRef" 
+          android:layout_below="@+id/paymentRef"       
+         style="@style/EditTextsmall" 
+         android:layout_marginLeft="10dp"
+         android:digits=" .,@#-_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" 
+         android:maxLength="50"/> -->
+      
+        
+      
+</RelativeLayout>
+
+ <LinearLayout
+  		android:orientation="horizontal"
+  		android:layout_width="fill_parent"
+  		android:layout_marginTop="25dp"
+  		android:layout_marginBottom="5dp" 
+		android:layout_height="fill_parent"
+		android:gravity="center_horizontal">
+	
+	 <Button 
+    		  android:text="Submit"     	 		
+    		  android:layout_width="125dp"  
+              style="@style/Button" 
+              android:id="@+id/button"    />
+ 
+</LinearLayout>
+
+</LinearLayout>

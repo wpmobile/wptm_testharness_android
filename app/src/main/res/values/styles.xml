@@ -1,0 +1,108 @@
+<resources>
+    
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+       
+    </style>
+    
+	<style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+   	<style name="Headding" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_centerHorizontal">true</item>
+		<item name="android:background">@drawable/Background_color</item>	
+		<item name="android:layout_marginTop">20dp</item>
+		<item name="android:textColor">@drawable/Text_color</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">26dp</item>
+		<item name="android:typeface">normal</item>
+		<item name="android:padding">10dp</item>		
+	</style>
+	
+   	
+   	<style name="NextHome" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">180dp</item>
+		<item name="android:layout_height">55dp</item>
+		<item name="android:layout_centerHorizontal">true</item>	
+		<item name="android:background">@drawable/btn_selector</item>
+		<item name="android:textColor">@drawable/Text_color</item>			
+		<item name="android:textSize">16dp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:typeface">normal</item>
+		<item name="android:layout_marginTop">30dp</item>	
+	</style>
+	
+   		<style name="Button" parent="@android:style/Widget.Button">
+	    <item name="android:layout_height">48dp</item> 
+	    <item name="android:layout_width">wrap_content</item> 
+		<item name="android:textColor">@drawable/Text_color</item>
+		<item name="android:textSize">18dp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:typeface">normal</item>
+		<item name="android:background">@drawable/btn_selector</item>
+		<item name="android:focusable">true</item>
+		<item name="android:clickable">true</item>
+		<item name="android:layout_marginTop">35dp</item>
+		<item name="android:layout_marginBottom">30dp</item>
+		<item name="android:layout_gravity">center_horizontal</item>
+		<item name="android:padding">5dp</item>
+	</style>
+	
+
+	
+   	
+   		<style name="CodeFontSmall" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">110dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@drawable/Text_color</item>
+		<item name="android:background">@drawable/Background_color</item>	
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">18dp</item>
+		<item name="android:typeface">normal</item>
+		<item name="android:layout_marginTop">5dp</item>
+		<item name="android:padding">10dp</item>	
+	</style>
+
+   			<style name="Textsmall" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@drawable/Edit_color</item>
+		<item name="android:textColorHint">@drawable/hint_color</item>
+		<item name="android:background">@drawable/Background_color</item>		
+		<item name="android:textSize">18dp</item>
+		<item name="android:typeface">normal</item>
+		<item name="android:padding">8dp</item>	
+		<item name="android:layout_marginTop">5dp</item>	
+	</style>
+   		
+ 
+   		<style name="EditTextsmall" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@drawable/Edit_color</item>
+		<item name="android:textColorHint">@drawable/hint_color</item>
+		<item name="android:background">@drawable/edittext</item>		
+		<item name="android:textSize">18dp</item>
+		<item name="android:typeface">normal</item>
+		<item name="android:padding">8dp</item>	
+		<item name="android:layout_marginTop">15dp</item>
+		<item name="android:layout_marginRight">20dp</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:focusableInTouchMode">false</item>
+		<item name="android:cursorVisible">true</item>				
+	</style>
+	
+   	
+   	
+   		
+   		 <drawable name="defult_bg">#DCDCDC</drawable>
+ 	 	 <drawable name="Clicked_bg">#00CED1</drawable>
+   		 <drawable name="hint_color">#657383</drawable>
+ 	 	 <drawable name="Edit_color">#3B3131</drawable>
+   	 	 <drawable name="Text_color">#000000</drawable>
+   	 	 <drawable name="Background">#C0C0C0</drawable>
+   	 	 <drawable name="Background_Screen">#FFFFFF</drawable>
+   		 <drawable name="Background_color">#00000000</drawable>
+</resources>

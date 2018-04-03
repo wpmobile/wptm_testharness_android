@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <drawable name="Background">#C0C0C0</drawable>
+    <drawable name="Background_Screen">#FFFFFF</drawable>
+    <drawable name="Background_color">#00000000</drawable>
+    <drawable name="Clicked_bg">#00CED1</drawable>
+    <drawable name="Edit_color">#3B3131</drawable>
+    <drawable name="Text_color">#000000</drawable>
+    <drawable name="defult_bg">#DCDCDC</drawable>
+    <drawable name="hint_color">#657383</drawable>
+    <string name="Ankita_Bakshi_roi">9A91FD79EB55FC34D184924B2B6329C11FD79EB55FC34EBB045D4962AF566FD3F5EBAE13862A1F39885627260DEB6A064A0A33176363D576C4F93660075992D</string>
+    <string name="Ankita_Bakshi_uk">499078D42FB44A02F3E6A8F611902TY6A5B3A2593251FD79EB55FC34EBB045D49667C313862A1F39885627260DEBC6C189FE506D6C941CF6C74534FF4F93666</string>
+    <string name="Ashish_Mathur">924B2B84924924B2BC11FD79EB55FC34EBB045D4962AF566FD3F5EBAEB045D4962AF566FD3F5EB13862A1F39885627260DEB6A064A0A331763D576C4FF4F936</string>
+    <string name="Bipul_Jain">800EDED51A50A12FB11E80C0767090FC76195519E55140509400F5B167E07E70EC2767E695D3FB13C5283CFB2197000D15B30E49019628BD46850075992D9B3</string>
+    <string name="Deepti_Gour">9B045D4962AF566FD3F5E7A5DD184924B2B6329C11FD79EB55FC34EBB045D4962AF566FD3F5EBAE13862A1F39885627260DEB6A064A0A33666850075992D565</string>
+    <string name="Kamlesh_Garg_Roi">UYUA94ERE56565661017A5DD184924B2B6329C11FD79EB55FC34EBB045D4962AF566FD3F5EBAE13862A1F39885627260DEB6A064A0A331763D576C4FF4F9366</string>
+    <string name="Kamlesh_Garg_UK">D3CAB8F4B236056C5AA29DCC86B0C59B12F65E5A21795710FFA0E47842436966589625625BAB1D956481D18B9E48BE5BE2D0820AA39247D4AED506DD27AB358</string>
+    <string name="Manoj_Chandel">4B7499F6E60335189477CBEFC2495F4F1593236341DC3FCE68CBB09565F8A18D3DA273E3EF596471FA72578F3DFB8FB7DF12D9739D79D5FFA80270465697E41</string>
+    <string name="Mayank_Garg">9A94A1017A5DD184924B2B6329C11FD79EB55FC34EBB045D4962AF566FD3F5EBAE13862A1F39885627260DEB6A064A0A331763D576C4FF4F93666850075992D</string>
+    <string name="Pritesh_Arzare_Roi">4ADD05F8E9C5B1BF9BE9BED28E8FE5373D45A4DA65C4A87D360EF7FF01EF456EECA10F2CA8F09254AD6D6C47EA9165CD4D4CAB416C03292E4196C29A4B835C16</string>
+    <string name="Ravi_Katiyar">9F41F5EACB68B68149C00A17D58E2ACCE975A59BE08912DF8ECAFB329DA9616A32F15787DE5DA8E30AC371125376855E8A6CFF0F20AEE9CC0CDDC79EA8FD4E08</string>
+    <string name="Sanjay_Sharma">78D42FB44A02F3E6A8F6D437566EF10C0B1D3D020FA2335329C11FD79EB55F6B99FCAFF78456515B362A6B73EF3631B8A1624972ECFD205084271AB2A5AD520</string>
+    <string name="Shailesh_Tiwari_UK">2588A421B24AACCFCE0A03E64159C40E3143E351C816E3F5EBAE13862A1F39885627260DEB6A00A9114B717A35B566FD64A04F93D7A6305603F1CDF0E919806</string>
+    <string name="Shashikant_Patil">0B47A8A7C2063603D925500420FE9D1B809DF51E4DACF380BED0AAA40F3934A9DBE9EA2C036EB2418820CA0AD51FC25B7904E56EE834D9E56CB52953F0A571AD</string>
+    <string name="Shashikant_Patil_Roi">3218A0643FBAF626F8800C58AA52C327F386021262D8FC7CEF559EE5FAD872E85713B3EB9AE86F754E5B4A2F69A15E0599C7A7316F6633A15F04EAAC18C9E6D9</string>
+    <string name="Surabhi_Bagrecha">B4C182E11C881D5A2A03E64159C40E40F58FDAC562E3EE744C87D08F7B1429E9D71D495646A687F08B462E6B8F108FDC8564EDA4D19255369F47F233449BCC9</string>
+    <string name="TID">TID</string>
+    <string name="YESPAY_16">ae91b7bb6eac2e9c973857a9ec352fb7bae8397b</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Test-Harness</string>
+    <string name="checkcard">Check Card</string>
+    <string name="clint_text">Please Wait...</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ok_btn">OK</string>
+    <string name="qaroi">64a32bd20e1d4f57a8987336045b503b</string>
+    <string name="qaroi2">64a32bd20e1d4f57a8987336045b503b</string>
+    <string name="qaroi3">64a32bd20e1d4f57a8987336045b503b</string>
+    <string name="qawptm">5F418B16AA5C3963E781809C705319AAA618F1FF05BE3D9228A16DD9A72F30E623C117E1EE79D3D4323C2D09E1AA32DCF1ECD7B26F7017B92C1331995A245F04</string>
+    <string name="qawptm2">5F418B16AA5C3963E781809C705319AAA618F1FF05BE3D9228A16DD9A72F30E623C117E1EE79D3D4323C2D09E1AA32DCF1ECD7B26F7017B92C1331995A245F04</string>
+    <string name="refund">Refund</string>
+    <string name="remote_configuration">Remote Configuration</string>
+    <string name="sale">Sale</string>
+    <string name="submit">Submit</string>
+    <string name="testm2">3779115d-545c-4493-9b11-73bed3cec0b7</string>
+    <string name="token_refund">Token Refund</string>
+    <string name="token_sale">Token Sale</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+       
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Button" parent="@android:style/Widget.Button">
+	    <item name="android:layout_height">48dp</item> 
+	    <item name="android:layout_width">wrap_content</item> 
+		<item name="android:textColor">@drawable/Text_color</item>
+		<item name="android:textSize">18dp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:typeface">normal</item>
+		<item name="android:background">@drawable/btn_selector</item>
+		<item name="android:focusable">true</item>
+		<item name="android:clickable">true</item>
+		<item name="android:layout_marginTop">35dp</item>
+		<item name="android:layout_marginBottom">30dp</item>
+		<item name="android:layout_gravity">center_horizontal</item>
+		<item name="android:padding">5dp</item>
+	</style>
+    <style name="CodeFontSmall" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">110dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@drawable/Text_color</item>
+		<item name="android:background">@drawable/Background_color</item>	
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">18dp</item>
+		<item name="android:typeface">normal</item>
+		<item name="android:layout_marginTop">5dp</item>
+		<item name="android:padding">10dp</item>	
+	</style>
+    <style name="EditTextsmall" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@drawable/Edit_color</item>
+		<item name="android:textColorHint">@drawable/hint_color</item>
+		<item name="android:background">@drawable/edittext</item>		
+		<item name="android:textSize">18dp</item>
+		<item name="android:typeface">normal</item>
+		<item name="android:padding">8dp</item>	
+		<item name="android:layout_marginTop">15dp</item>
+		<item name="android:layout_marginRight">20dp</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:focusableInTouchMode">false</item>
+		<item name="android:cursorVisible">true</item>				
+	</style>
+    <style name="Headding" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_centerHorizontal">true</item>
+		<item name="android:background">@drawable/Background_color</item>	
+		<item name="android:layout_marginTop">20dp</item>
+		<item name="android:textColor">@drawable/Text_color</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">26dp</item>
+		<item name="android:typeface">normal</item>
+		<item name="android:padding">10dp</item>		
+	</style>
+    <style name="NextHome" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">180dp</item>
+		<item name="android:layout_height">55dp</item>
+		<item name="android:layout_centerHorizontal">true</item>	
+		<item name="android:background">@drawable/btn_selector</item>
+		<item name="android:textColor">@drawable/Text_color</item>			
+		<item name="android:textSize">16dp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:typeface">normal</item>
+		<item name="android:layout_marginTop">30dp</item>	
+	</style>
+    <style name="Textsmall" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@drawable/Edit_color</item>
+		<item name="android:textColorHint">@drawable/hint_color</item>
+		<item name="android:background">@drawable/Background_color</item>		
+		<item name="android:textSize">18dp</item>
+		<item name="android:typeface">normal</item>
+		<item name="android:padding">8dp</item>	
+		<item name="android:layout_marginTop">5dp</item>	
+	</style>
+</resources>

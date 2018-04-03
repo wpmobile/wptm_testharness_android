@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"  android:layout_height="match_parent"
+android:orientation="vertical" android:background="@drawable/Background_Screen" >
+ 
+
+     <TextView
+     android:id="@+id/screen_name"
+     android:text="@string/remote_configuration"
+     style="@style/Headding"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center_horizontal"/>
+
+
+<RelativeLayout android:layout_width="wrap_content"  android:layout_height="wrap_content" >
+
+     <TextView
+      android:id="@+id/tidTextView"        
+      style="@style/CodeFontSmall" 
+      android:text="@string/TID" 
+      android:layout_marginTop="10dp"/> 
+ 
+      <EditText 
+      android:id="@+id/tidEditText" 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf="@+id/tidTextView"           
+      android:inputType="number" 
+      android:maxLength="8"
+      /> 
+
+ </RelativeLayout>
+
+     <Button 
+     android:text="@string/submit"      
+     android:layout_width="125dp"  
+     style="@style/Button" 
+     android:id="@+id/submitButton"    />
+ 
+
+</LinearLayout>
+  

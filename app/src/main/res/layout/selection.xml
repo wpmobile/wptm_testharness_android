@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/Background_Screen"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/Selection"
+            style="@style/Headding"
+            android:text=" " />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/selectanyone"
+                style="@style/CodeFontSmall"
+                android:layout_width="fill_parent"
+                android:text="Select a UUID :" />
+
+            <Spinner
+                android:id="@+id/dropdownlist"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/selectedvalue"
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+             <TextView
+                android:id="@+id/selectmode"
+                style="@style/CodeFontSmall"
+                android:layout_width="fill_parent"
+                android:text="Select Mode :" />
+
+            <Spinner
+                android:id="@+id/options"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/okBtn"
+                style="@style/NextHome"
+                android:text="OK"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/Dummy"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text=""
+                android:visibility="invisible" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
