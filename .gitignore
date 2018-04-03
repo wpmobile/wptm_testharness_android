@@ -1,0 +1,17 @@
+.gradle
+/local.properties
+/.idea/*
+.DS_Store
+/build
+*/build/*
+/res/*/Thumbs.db
+robolectric-tests/build/
+*.db
+ajcore*.txt
+secrets.properties
+*.iml
+app/app.iml
+test_harness.iml
+*.hprof
+captures/
+*workspace.xml
